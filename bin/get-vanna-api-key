@@ -1,0 +1,7 @@
+#!/usr/bin/env python3
+
+import vanna as vn
+api_key = vn.get_api_key('vnagireddy.symphonize@gmail.com')
+# NOTE: email will be sent to the above email,
+#       once entered, api_key will be printed
+print(api_key)
