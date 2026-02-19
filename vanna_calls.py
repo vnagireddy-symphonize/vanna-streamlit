@@ -8,7 +8,7 @@ def setup_vanna():
     vn.connect_to_sqlite("https://vanna.ai/Chinook.sqlite")
     return vn
 
-@st.cache_data(show_spinner="Generating sample questions ...")
+# @st.cache_data(show_spinner="Generating sample questions ...")
 def generate_questions_cached():
     vn = setup_vanna()
     return vn.generate_questions()

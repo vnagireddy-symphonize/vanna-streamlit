@@ -162,3 +162,8 @@ cython_debug/
 .DS_Store
 
 .streamlit/secrets.toml
+
+# added by V
+
+.secrets/
+
